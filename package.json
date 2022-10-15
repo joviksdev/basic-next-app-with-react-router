@@ -1,5 +1,5 @@
 {
-  "name": "temp",
+  "name": "setup",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/jest": "^29.1.2",
+    "@types/node": "^18.11.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
     "axios": "^0.20.0",
     "fs-extra": "^9.0.1",
     "history": "^5.0.0",
@@ -17,10 +21,11 @@
     "react-icons": "^3.11.0",
     "react-query": "^2.23.1",
     "react-query-devtools": "^2.5.1",
-    "react-router-dom": "^6.0.0-beta.0",
+    "react-router-dom": "^6.3.0",
     "shortid": "^2.2.15",
     "styled-components": "^5.2.0",
-    "styled-normalize": "^8.0.7"
+    "styled-normalize": "^8.0.7",
+    "typescript": "^4.8.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
